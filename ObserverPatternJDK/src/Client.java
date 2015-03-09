@@ -9,10 +9,10 @@ public class Client {
 		KonkretesSubjekt konkretesSubjekt = new KonkretesSubjekt();
 		
 		// Erzeugung des Beobachters. Dabei wird
-		// das Subjekt übergeben und registriert.
+		// das Subjekt uebergeben und registriert.
 		KonkreterBeobachter konkreterBeobachter = new KonkreterBeobachter(konkretesSubjekt);
 				
-		// Zustandsänderung, Subjekt benachrichtigt
+		// Zustandsaenderung, Subjekt benachrichtigt
 		// daraufhin die Beobachter
 		konkretesSubjekt.setState(1);
 	}

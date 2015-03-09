@@ -8,7 +8,7 @@ public class KonkreterBeobachter implements Beobachter {
 	public KonkreterBeobachter(KonkretesSubjekt konkretesSubjekt) {
 		this.konkretesSubjekt = konkretesSubjekt;
 		
-		// Durchführung der Registrierung beim übergebenen Subjekt
+		// Durchfuehrung der Registrierung beim uebergebenen Subjekt
 		this.konkretesSubjekt.addBeobachter(this);
 	}
 	
