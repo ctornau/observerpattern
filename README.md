@@ -1,10 +1,10 @@
 Demonstration des Observer-Patterns mit und ohne JDK
 ====================================================
 
-Das Observer-Pattern (zu Deutsch: Beobachter-Muster) wird demonstriert.
+Das Observer-Pattern (zu Deutsch: Beobachter-Muster) wird mit den hier hinterlegten Eclipse-Projekten demonstriert. Ein ausfÃ¼hrlicher Artikel zum Observer-Pattern befindet sich unter [Tornau.name](http://www.tornau.name/2014/02/das-observer-pattern-beobachter-muster/).
 
-Innerhalb von [ObserverPattern](https://github.com/ctornau/observerpattern/tree/master/ObserverPattern) befindet sich eine Implementierung in Java 7 (und kleiner), die sich nicht auf das JDK stützt.
+Innerhalb von [ObserverPattern](https://github.com/ctornau/observerpattern/tree/master/ObserverPattern) befindet sich eine Implementierung in Java, die komplett selbst geschrieben ist und die sich nicht auf das JDK stÃ¼tzt.
 
-Innerhalb von [ObserverPatternJDK](https://github.com/ctornau/observerpattern/tree/master/ObserverPatternJDK) befindet sich eine Implementierung in Java 7 (und kleiner), die das JDK nutzt.
+Innerhalb von [ObserverPatternJDK](https://github.com/ctornau/observerpattern/tree/master/ObserverPatternJDK) befindet sich eine Implementierung in Java, die das JDK nutzt und die Klassen Observable bzw. Observer nutzt.
 
-Innerhalb von [ObserverPatternJDK8](https://github.com/ctornau/observerpattern/tree/master/ObserverPatternJDK8) befindet sich eine Implementierung in Java 8, die sich nicht auf das JDK dafür aber auf die neuen Lambda-Ausdrücke von Java 8 stützt.
+Innerhalb von [ObserverPatternJDK8](https://github.com/ctornau/observerpattern/tree/master/ObserverPatternJDK8) befindet sich eine Implementierung, die ab Java-Version 8 lauffÃ¤hig ist, die sich wiederum nicht auf das JDK stÃ¼tzt, dafÃ¼r aber die Lambda-AusdrÃ¼cke von Java 8 nutzt.
